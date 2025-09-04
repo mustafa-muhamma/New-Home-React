@@ -1,0 +1,34 @@
+nav{
+    padding: 1rem 0;
+}
+.nav__logo{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nav__link{
+    padding: 0.5rem;
+    color: black;
+}
+.nav__link:hover{
+    color: #0ea3de7d;
+}
+
+.toggle{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .navbar__links,
+    .navbar__icons{
+        display: none;
+    }
+    .toggle{
+        display: block;
+    }
+    nav .row{
+        flex-direction: row;
+    }
+}

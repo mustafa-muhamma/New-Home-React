@@ -1,0 +1,73 @@
+.ourFurniture {
+    padding: 1rem 0;
+}
+
+.ourFurniture__header {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.ourFurniture__header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.ourFurniture__header p {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.ourFurniture__Cards {
+    padding: 1rem 0;
+    gap: 1rem;
+}
+
+.card {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card__content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.card__content p {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.card__content a {
+    padding: 0.5rem 0;
+    color: #0ea3de7d;
+    text-align: end;
+    display: block;
+}
+
+.cardButton {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-top: 0.5rem ;
+}
+
+@media (max-width: 1024px) {
+    .card {
+        width: 100%;
+    }
+}
